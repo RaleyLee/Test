@@ -1,0 +1,18 @@
+platform :ios, '8.0'
+target 'Kinds' do
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'MJExtension'
+pod 'WMPageController', '~> 2.5.0'
+pod 'Reachability'
+pod 'MXNavigationBarManager'
+pod 'SDCycleScrollView'
+pod 'DTKDropdownMenu'
+pod 'ZWPullMenuView'
+pod 'YYKit'
+pod 'UUButton'
+pod 'MLLabel'
+end

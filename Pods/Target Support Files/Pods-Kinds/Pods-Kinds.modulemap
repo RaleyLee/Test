@@ -1,0 +1,6 @@
+module Pods_Kinds {
+  umbrella header "Pods-Kinds-umbrella.h"
+
+  export *
+  module * { export * }
+}
