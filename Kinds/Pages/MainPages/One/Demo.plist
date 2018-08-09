@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>View弹层</string>
+		<key>canPush</key>
+		<false/>
+		<key>page</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Html页面</string>
+		<key>canPush</key>
+		<true/>
+		<key>page</key>
+		<string>HtmlViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>更改颜色</string>
+		<key>canPush</key>
+		<false/>
+		<key>page</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>QQ音乐提示</string>
+		<key>canPush</key>
+		<true/>
+		<key>page</key>
+		<string>QQMusicWarnViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>search</string>
+		<key>canPush</key>
+		<true/>
+		<key>page</key>
+		<string>SearchDemoViewController</string>
+	</dict>
+</array>
+</plist>

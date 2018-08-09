@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>myTool</key>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string></string>
+			<key>iconTitle</key>
+			<string>全部音乐</string>
+			<key>iconNumber</key>
+			<string>300</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string></string>
+			<key>iconTitle</key>
+			<string>下载音乐</string>
+			<key>iconNumber</key>
+			<string>300</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string></string>
+			<key>iconTitle</key>
+			<string>最近播放</string>
+			<key>iconNumber</key>
+			<string>300</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string></string>
+			<key>iconTitle</key>
+			<string>我喜欢</string>
+			<key>iconNumber</key>
+			<string>300</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string></string>
+			<key>iconTitle</key>
+			<string>已购音乐</string>
+			<key>iconNumber</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string></string>
+			<key>iconTitle</key>
+			<string>跑步电台</string>
+			<key>iconNumber</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>songList_self</key>
+	<array/>
+	<key>songList_collect</key>
+	<array>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
+</dict>
+</plist>

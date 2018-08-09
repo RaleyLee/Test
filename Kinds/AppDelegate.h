@@ -10,8 +10,16 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+typedef enum : NSUInteger{
+    OritationTypeUP,  //朝上
+    OritationTypeLeft,  //朝左
+    OritationTypeRight,  //朝右
+    OritationTypeALL,  //朝上/左/右
+}OritationType;
+
 @property (strong, nonatomic) UIWindow *window;
 
+@property(nonatomic,assign)OritationType orientation;
 
 @end
 

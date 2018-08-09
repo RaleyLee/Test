@@ -1,0 +1,1662 @@
+
+<head>
+<meta charset="utf-8">
+<title>推荐页 - QQ音乐</title>
+<script id="mod_spt">
+document.domain = 'qq.com';
+(function(m, o, d, u, l, a, r) {
+if(m[o]) {return;}
+function f(n) {
+return function() { r.push(n, arguments); return a; }
+}
+m[o] = a = {
+args: (r = []),    resourceMap : f(0),    async: f(1)
+};
+u = d.createElement("script");
+u.id = o + "node";
+u.async = true;
+//u.crossOrigin = true;
+u.src = window.location.protocol+"//y.gtimg.cn/c/=/music/mac/js/mod/music/map.js,/music/mac/js/mod/music/mod.js?r=" + parseInt(new Date()/600000) ;
+l = d.getElementsByTagName("head")[0];
+l.appendChild(u);
+})(window, "require", document);
+
+window.SPD={_timing:{},_start:Date.now(),mark:function(a,b){this._timing[a]=(b||Date.now())-this._start}};
+</script><script id="requirenode" async="" src="https://y.gtimg.cn/c/=/music/mac/js/mod/music/map.js,/music/mac/js/mod/music/mod.js?r=2552263"></script>
+<script type="text/javascript">window.g_watchCssBegin=new Date();
+document.write('<link rel="stylesheet" type="text/css" href="'+window.location.protocol+'//y.gtimg.cn/mediastyle/macmusic_v4/frame_20171107.css?max_age=2592000&v=20171115">');
+document.write('<link rel="stylesheet" type="text/css" href="'+window.location.protocol+'//y.gtimg.cn/mediastyle/macmusic_v4/recommend20180510.css?max_age=2592000">');
+</script><link rel="stylesheet" type="text/css" href="https://y.gtimg.cn/mediastyle/macmusic_v4/frame_20171107.css?max_age=2592000&amp;v=20171115"><link rel="stylesheet" type="text/css" href="https://y.gtimg.cn/mediastyle/macmusic_v4/recommend20180510.css?max_age=2592000">
+<script type="text/javascript">window.g_watchPageBegin=new Date();</script>
+<script type="text/javascript">
+SPD.mark(31); // CSS加载完毕
+</script>
+</head>
+<body class="preload">
+<div class="wrap">
+
+<article class="focus">
+<!-- 动画中加类名animating 完成后去掉 -->
+<div class="stage" id="J_animating">
+
+<section class="p1" index="0" data-id="J_index1" id="J_index1" style="visibility: visible;">
+<a href="javascript:;" data-rid="4138995" data-type="10002">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/301136.jpg?max_age=2592000" src="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/301136.jpg?max_age=2592000" alt="iKON中文曲PY" style="display: block; visibility: visible; opacity: 0;">
+</a>
+</section>
+
+<section class="p2" index="1" data-id="J_index2" id="J_index2">
+<a href="javascript:;" data-rid="0" data-type="3002" data-href="https://y.qq.com/m/digitalbum/gold/index.html?_video=true&amp;id=4124273&amp;g_f=yqqjiaodian">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300107.jpg?max_age=2592000" src="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300107.jpg?max_age=2592000" alt="YQQ周笔畅《重命名》">
+</a>
+</section>
+
+<section class="p3" index="2" data-id="J_index3" id="J_index3">
+<a href="javascript:;" data-rid="4084422" data-type="10002">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300998.jpg?max_age=2592000" src="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300998.jpg?max_age=2592000" alt="成龙">
+</a>
+</section>
+
+<section class="p4" index="3" data-id="J_index4" id="J_index4">
+<a href="javascript:;" data-rid="4164166" data-type="10002">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/301042.jpg?max_age=2592000" src="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/301042.jpg?max_age=2592000" alt="金志文EP">
+</a>
+</section>
+
+<section class="p5" index="4" data-id="J_index5" id="J_index5">
+<a href="javascript:;" data-rid="2217602" data-type="10002">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300523.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="唱反调X熊梓淇">
+</a>
+</section>
+
+<a href="javascript:;" class="focus__btn_prev js_prev"><span class="focus__txt">上一个</span></a>
+<a href="javascript:;" class="focus__btn_next js_next"><span class="focus__txt">下一个</span></a>
+
+
+</div>
+<footer>
+
+<a class=" J_dot1" href="javascript:;" id="J_dot1" data-id="1" tabindex="-1">1</a>
+
+<a class=" J_dot2" href="javascript:;" id="J_dot2" data-id="2" tabindex="-1">2</a>
+
+<a class="current J_dot3" href="javascript:;" id="J_dot3" data-id="3" tabindex="-1">3</a>
+
+<a class=" J_dot4" href="javascript:;" id="J_dot4" data-id="4" tabindex="-1">4</a>
+
+<a class=" J_dot5" href="javascript:;" id="J_dot5" data-id="5" tabindex="-1">5</a>
+
+</footer>
+</article>
+
+
+<article class="main">
+
+
+<section class="mod_slide mod_for_u custom7 js_tuijian mod_section">
+<header class="mod_hd">
+<h2 class="mod_tit">为你推荐</h2>
+<div class="mod_slide_btn">
+<a href="javascript:;" class="mod_slide_btn__prev prev over" style="display:;" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>上一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+<a href="javascript:;" class="mod_slide_btn__next next" style="display:;" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>下一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+</div>
+</header>
+<div class="mod_slide__cont">
+<ul class="mod_playlist" id="J_like">
+<li class="mod_playlist__item js_daily30" style="display:none">
+<!-- 播放时添加类名playing -->
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="daily30">
+<div class="mod_playlist__cover mod_recommend_cover">
+<img class="mod_playlist__pic" src="//p.qpic.cn/music_cover/A3K6WU7EtiaOWXPWe0T7icHy5rtPB6uxy0Q6WF4iasmiccO0ld7phIib5Hg/300?n=1" alt="">
+<div class="recommend_cover__info">
+
+<div class="recommend_cover__month_en">JUL</div>
+<div class="recommend_cover__month_cn">七月</div>
+<div class="recommend_cover__data">
+<!-- 改变url数字 -->
+
+<div class="recommend_cover__data_numb" style="background-image:url(//y.gtimg.cn/mediastyle/macmusic_v4/img/recommend_cover/1.png?max_age=2592000)"></div>
+
+<div class="recommend_cover__data_numb" style="background-image:url(//y.gtimg.cn/mediastyle/macmusic_v4/img/recommend_cover/2.png?max_age=2592000)"></div>
+
+</div>
+</div>
+</div>
+</a>
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">基于你最近听的歌曲</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+基于你最近听的歌曲推荐
+<br>
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;">每日推荐</a></h3>
+</li>
+
+<li class="mod_playlist__item js_gxdiantai" style="display:none">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10004" data-rid="99" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://i.gtimg.cn/music/common/upload/t_cm3_photo_publish/1462268549229011500.jpg?max_age=2592000)">
+<span class="hide">个性电台</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">每天给你不同的惊喜</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+基于你最近听的歌曲
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10004" data-rid="99">个性电台</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4204678415" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE9UstjhpTfKs2KGwPBVI3CsicxWV7J8fr4A/600?n=1?max_age=2592000)">
+<span class="hide">每日新歌：BTOB队长合作抒情新曲</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：每日新歌：BTOB队长合作抒情新曲</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：每日新歌：BTOB队长合作抒情新曲
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4204678415">每日新歌：BTOB队长合作抒情新曲</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4205111691" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/1ZdGl7wveVA1a9fU8FWwvKfJr33pYJuhL9QGTgxER3BniaenbjL8Zog/600?n=1?max_age=2592000)">
+<span class="hide">为了你我可以对抗全世界，即使你已经离开</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：为了你我可以对抗全世界，即使你已经离开</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：为了你我可以对抗全世界，即使你已经离开
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4205111691">为了你我可以对抗全世界，即使你已经离开</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4076533364" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/K1wMWlXCKHpuvadtQGDIMIz6c8eE6dp9f840aeJfLqsVljC5AlAibkA/600?n=1?max_age=2592000)">
+<span class="hide">海滩度假趴：欢快的日系小曲</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：海滩度假趴：欢快的日系小曲</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：海滩度假趴：欢快的日系小曲
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4076533364">海滩度假趴：欢快的日系小曲</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4178313184" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/N989Yfypibia4roDxwxzpl9oicmyiagRicVu2cOYjVMzOtFyn4rezvKzSRQ/600?n=1?max_age=2592000)">
+<span class="hide">Original Mix: 迷幻娇嗓的欧美女声</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：Original Mix: 迷幻娇嗓的欧美女声</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：Original Mix: 迷幻娇嗓的欧美女声
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4178313184">Original Mix: 迷幻娇嗓的欧美女声</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4193663474" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/UCJDptU3vGgQt6PS5Hn6CxbfOR0S0slzJN45AIibr8S2xE6vHLxibbAw/600?n=1?max_age=2592000)">
+<span class="hide">古风：笛音云雾绕，一曲醉轻狂</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：古风：笛音云雾绕，一曲醉轻狂</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：古风：笛音云雾绕，一曲醉轻狂
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4193663474">古风：笛音云雾绕，一曲醉轻狂</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4171011468" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/rTTmm5kYwyYzDb9vVF6KsQpdibUSp6M55WChCMosTxb64iaQerOfqKrw/600?n=1?max_age=2592000)">
+<span class="hide">90后韩国说唱新生代</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：90后韩国说唱新生代</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：90后韩国说唱新生代
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4171011468">90后韩国说唱新生代</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4073800491" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/sMrfR4xnhvohzZMUw6icQ1SXCMxicWr8oVvRicgaKwzQ2Acia4RNlSXMGQ/600?n=1?max_age=2592000)">
+<span class="hide">摇滚乐里的小号角色</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：摇滚乐里的小号角色</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：摇滚乐里的小号角色
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4073800491">摇滚乐里的小号角色</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4191052531" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/PTq9Z793Ipkz20NmN0Ykyy8hFpicms3T70HHbc6ojsE84TjjK8KLJIA/600?n=1?max_age=2592000)">
+<span class="hide">Dream Pop · 少女の臆想氛围</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：Dream Pop · 少女の臆想氛围</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：Dream Pop · 少女の臆想氛围
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4191052531">Dream Pop · 少女の臆想氛围</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4128710557" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/Q6jzKPNCPTc2iczypkicqzaP4TYMIYkjIxSWEuOP46nA9HQNvAUE6GEQ/600?n=1?max_age=2592000)">
+<span class="hide">Deep House 妖娆男嗓</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：Deep House 妖娆男嗓</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：Deep House 妖娆男嗓
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4128710557">Deep House 妖娆男嗓</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4192069136" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/Biax4WTSMic4N0bgPWDwUCs5s5T4wShl3b6sU4uu6ZGKhn1zN2vibYzhA/600?n=1?max_age=2592000)">
+<span class="hide">思路大开！刷数学题听的Indie Rock</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：思路大开！刷数学题听的Indie Rock</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：思路大开！刷数学题听的Indie Rock
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4192069136">思路大开！刷数学题听的Indie Rock</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4167230332" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/Ln2hcJrJkibdW1MpKCmHtuVgrxE2r3rmTwBasTogokD93BpDd08FSjA/600?n=1?max_age=2592000)">
+<span class="hide">全民K歌古风歌手全收录</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：全民K歌古风歌手全收录</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：全民K歌古风歌手全收录
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4167230332">全民K歌古风歌手全收录</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4180893841" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/ibHEEiau7zoLyJC1TFibu8icfmHULc605ibSvekJDCnhTrkmOxto3b7qhag/600?n=1?max_age=2592000)">
+<span class="hide">耳机分你一半&nbsp;|&nbsp;图书馆恋爱BGM</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：耳机分你一半&nbsp;|&nbsp;图书馆恋爱BGM</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：耳机分你一半&nbsp;|&nbsp;图书馆恋爱BGM
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4180893841">耳机分你一半&nbsp;|&nbsp;图书馆恋爱BGM</a></h3>
+</li>
+
+</ul>
+</div>
+</section>
+
+
+<section class="mod_section mod_news">
+<header class="mod_hd">
+<h2 class="mod_tit">新歌首发</h2>
+<nav class="mod_tag_tab">
+<a href="javascript:;" data-type="nd">内地</a>
+<a href="javascript:;" data-type="gt">港台</a>
+<a href="javascript:;" data-type="eu">欧美</a>
+<a href="javascript:;" data-type="k">韩国</a>
+<a href="javascript:;" data-type="j">日本</a>
+</nav>
+</header>
+<div class="mod_news_cont" id="box">
+<div class="mod_news_cont__hd">
+<a href="javascript:;" class="mod_news__playall js_all_play">
+<svg aria-labelledby="title" role="img" class="playall_btn">
+<title>播放</title>
+<use xlink:href="#song_play" class="playall_btn__icon"></use>
+<use xlink:href="#song_round"></use>
+</svg>
+播放全部</a>
+<div class="mod_slide_btn">
+<a href="javascript:;" class="mod_slide_btn__prev over" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>上一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+<a href="javascript:;" class="mod_slide_btn__next" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>下一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+</div>
+</div>
+<div class="mod_news_cont__bd" style="-webkit-transform:translateX(0%);">
+
+<ul class="mod_news_list">
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;" style="visibility: visible;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000003nlRrP1C4A74.jpg?max_age=2592000" src="//y.gtimg.cn/music/photo_new/T002R90x90M000003nlRrP1C4A74.jpg?max_age=2592000" alt="不念" style="display: block; visibility: visible; opacity: 0;"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="不念">不念</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="张靓颖">张靓颖</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;" style="visibility: visible;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000002n00K51QVd8k.jpg?max_age=2592000" src="//y.gtimg.cn/music/photo_new/T002R90x90M000002n00K51QVd8k.jpg?max_age=2592000" alt="中国魂" style="display: block; visibility: visible; opacity: 0;"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="中国魂">中国魂</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="吴亦凡">吴亦凡</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000003KxD740juHki.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="永不磨灭的音符"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="永不磨灭的音符">永不磨灭的音符</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="金志文">金志文</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000001rZVPz1r30eJ.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="我们是谁"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="我们是谁">我们是谁</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="南征北战NZBZ">南征北战NZBZ</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000001HjGIQ4gT0Zk.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="对嘴"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="对嘴">对嘴</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="周笔畅">周笔畅</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000003PrXXR1ayIsf.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="中餐厅"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="中餐厅">中餐厅</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="赵薇">赵薇</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M0000014d61X4SFq8p.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="肆无忌惮"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="肆无忌惮">肆无忌惮</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="张洢豪">张洢豪</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000003YIgYK2pGfLf.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="风语咒"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="风语咒">风语咒</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="霍尊">霍尊</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000000Cfyu63F6eGm.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="偶遇"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="偶遇">偶遇</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="王菲">王菲</a></p>
+</div>
+</div>
+</li>
+</ul>
+
+</div>
+</div>
+</section>
+
+
+<section class="mod_section mod_slide mod_section_bg custom1" style="display:;">
+<header class="mod_hd">
+<h2 class="mod_tit">专辑首发</h2>
+<div class="mod_slide_btn">
+<a href="javascript:;" class="mod_slide_btn__prev prev over" style="display:;" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>上一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+<a href="javascript:;" class="mod_slide_btn__next next" style="display:;" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>下一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+</div>
+</header>
+<div class="mod_slide__cont">
+<ul class="mod_playlist" style="-webkit-transform:translateX(0%);" id="J_shoufaList">
+
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4164166" data-albummid="003KxD740juHki" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000003KxD740juHki.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="志" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="003KxD740juHki" data-rid="4164166" title="志">志</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="004YXxql1sSr2o" data-singerid="12111" title="金志文">金志文</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4169368" data-albummid="001rZVPz1r30eJ" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000001rZVPz1r30eJ.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="我们是谁" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="001rZVPz1r30eJ" data-rid="4169368" title="我们是谁">我们是谁</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="003ZQQb64D5317" data-singerid="69205" title="南征北战NZBZ">南征北战NZBZ</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4169371" data-albummid="003nlRrP1C4A74" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000003nlRrP1C4A74.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="不念" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="003nlRrP1C4A74" data-rid="4169371" title="不念">不念</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="000aw4WC2EQYTv" data-singerid="4607" title="张靓颖">张靓颖</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4169376" data-albummid="0010Gbyq1rGLMY" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M0000010Gbyq1rGLMY.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="梦的方向" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="0010Gbyq1rGLMY" data-rid="4169376" title="梦的方向">梦的方向</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="000vYUqh1SqjQQ" data-singerid="4423" title="华语群星">华语群星</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4177239" data-albummid="00412xEG1Lv3qU" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M00000412xEG1Lv3qU.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="纱灯" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="00412xEG1Lv3qU" data-rid="4177239" title="纱灯">纱灯</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="003ktdcg3E4kaG" data-singerid="61386" title="洛天依">洛天依</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4118551" data-albummid="004DGikr39BHp4" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000004DGikr39BHp4.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="如果有一天我们都老了" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="004DGikr39BHp4" data-rid="4118551" title="如果有一天我们都老了">如果有一天我们都老了</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="001CK69u2FGmx0" data-singerid="24593" title="祁隆">祁隆</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4164147" data-albummid="004ENQzj4TxXtS" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000004ENQzj4TxXtS.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="最后还是算了吧" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="004ENQzj4TxXtS" data-rid="4164147" title="最后还是算了吧">最后还是算了吧</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="002dKSkT1pKggC" data-singerid="160541" title="小魂">小魂</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="1965902" data-albummid="001oOidV3h6XWZ" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000001oOidV3h6XWZ.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="无论" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="001oOidV3h6XWZ" data-rid="1965902" title="无论">无论</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="003QAu5J2kXLry" data-singerid="1116812" title="魏大勋">魏大勋</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4124324" data-albummid="000XjarL2HK5As" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000000XjarL2HK5As.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="依然爱你" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="000XjarL2HK5As" data-rid="4124324" title="依然爱你">依然爱你</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="0040DFRO36fSPA" data-singerid="192369" title="夏凌兮">夏凌兮</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4016417" data-albummid="001ETCUa3vRRj9" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000001ETCUa3vRRj9.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="非类" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="001ETCUa3vRRj9" data-rid="4016417" title="非类">非类</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="0021wKB64PtWra" data-singerid="156640" title="娄艺潇">娄艺潇</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4123022" data-albummid="001JBsRU4acH18" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000001JBsRU4acH18.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="一窗雨" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="001JBsRU4acH18" data-rid="4123022" title="一窗雨">一窗雨</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="004eoig63ZhG62" data-singerid="7178" title="熊汝霖">熊汝霖</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4127762" data-albummid="004C3be122Ulit" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000004C3be122Ulit.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="幸福时代" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="004C3be122Ulit" data-rid="4127762" title="幸福时代">幸福时代</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="003L3h8f0YVFez" data-singerid="160464" title="伊泓远">伊泓远</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4124353" data-albummid="004RwGRS4bkn4M" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000004RwGRS4bkn4M.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="回不到年少" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="004RwGRS4bkn4M" data-rid="4124353" title="回不到年少">回不到年少</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="000cLhw80dlKRj" data-singerid="2169396" title="舒心">舒心</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4175205" data-albummid="0006PrGg1pTAML" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M0000006PrGg1pTAML.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="LOOK AT ME NOW" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="0006PrGg1pTAML" data-rid="4175205" title="LOOK AT ME NOW">LOOK AT ME NOW</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="002x62o94ClL4A" data-singerid="2178968" title="雅琪Yaccii">雅琪Yaccii</a> / <a href="javascript:;" class="album_singer w60" data-singermid="0042yY2v41Jsjq" data-singerid="1473820" title="DJKAKA">DJKAKA</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4124273" data-albummid="001HjGIQ4gT0Zk" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000001HjGIQ4gT0Zk.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="重命名" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="001HjGIQ4gT0Zk" data-rid="4124273" title="重命名">重命名</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="004HlS192u9J5g" data-singerid="4610" title="周笔畅">周笔畅</a>
+</div>
+
+
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10002" data-rid="4126899" data-albummid="002n00K51QVd8k" tabindex="-1">
+<div class="mod_playlist__cover">
+<img data-original="//y.gtimg.cn/music/photo_new/T002R300x300M000002n00K51QVd8k.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="中国魂" class="mod_playlist__pic">
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+<h3 class="mod_playlist__name"><a data-type="10002" href="javascript:;" data-albummid="002n00K51QVd8k" data-rid="4126899" title="中国魂">中国魂</a></h3>
+
+<div class="mod_playlist__info">
+
+<a href="javascript:;" class="album_singer w60" data-singermid="002yeznU3VAVEV" data-singerid="180646" title="吴亦凡">吴亦凡</a>
+</div>
+
+
+</li>
+
+
+</ul>
+</div>
+</section>
+
+
+
+
+</article>
+
+</div>
+<script type="text/javascript">var g_watchJsBegin=new Date(), g_watchRenderBegin = 0;</script>
+<script>SPD.mark(32); // HTML加载完毕</script>
+
+<script type="text/javascript">
+
+window.arrayDisstid = [4204678415,4205111691,4076533364,4178313184,4193663474,4171011468,4073800491,4191052531,4128710557,4192069136,4167230332,4180893841]
+window.taoge = [];
+</script>
+<script type="text/javascript">require.resourceMap({"res":{"js/v4/album.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/album_8a066c1.js?max_age=31536000","m":"8a066c1"},"js/v4/create_taoge.js":{"deps":["js/mod/music.js","js/mod/music/lib/base.js"],"url":"//y.gtimg.cn/music/mac/js/v4/create_taoge_1243e52.js?max_age=31536000","m":"1243e52"},"js/v4/index.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/index_b90c837.js?max_age=31536000","m":"b90c837"},"js/v4/msg_cmt.js":{"url":"//y.gtimg.cn/music/mac/js/v4/msg_cmt_be19b8e.js?max_age=31536000","m":"be19b8e"},"js/v4/msg_dataStorage.js":{"url":"//y.gtimg.cn/music/mac/js/v4/msg_dataStorage_5feb4dc.js?max_age=31536000","m":"5feb4dc"},"js/v4/msg_index.js":{"deps":["js/mod/music.js","js/mod/music/lib/base.js","js/v4/msg_dataStorage.js","js/v4/msg_secretary.js","js/v4/msg_cmt.js","js/v4/msg_system.js","js/v4/msg_util.js"],"url":"//y.gtimg.cn/music/mac/js/v4/msg_index_174b7f6.js?max_age=31536000","m":"174b7f6"},"js/v4/msg_secretary.js":{"url":"//y.gtimg.cn/music/mac/js/v4/msg_secretary_9a669e7.js?max_age=31536000","m":"9a669e7"},"js/v4/msg_system.js":{"url":"//y.gtimg.cn/music/mac/js/v4/msg_system_80ff156.js?max_age=31536000","m":"80ff156"},"js/v4/msg_upvote.js":{"deps":["js/mod/music.js","js/mod/music/lib/base.js","js/v4/msg_util.js"],"url":"//y.gtimg.cn/music/mac/js/v4/msg_upvote_5ce124b.js?max_age=31536000","m":"5ce124b"},"js/v4/msg_util.js":{"url":"//y.gtimg.cn/music/mac/js/v4/msg_util_cd6ffa2.js?max_age=31536000","m":"cd6ffa2"},"js/v4/music_share.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/music_share_ff2a668.js?max_age=31536000","m":"ff2a668"},"js/v4/mv.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/mv_c1d4d5e.js?max_age=31536000","m":"c1d4d5e"},"js/v4/mv_index.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/mv_index_8964a92.js?max_age=31536000","m":"8964a92"},"js/v4/playlist.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/playlist_00cf8dd.js?max_age=31536000","m":"00cf8dd"},"js/v4/profile.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/profile_e06ab67.js?max_age=31536000","m":"e06ab67"},"js/v4/radio.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/radio_84f7302.js?max_age=31536000","m":"84f7302"},"js/v4/singer.js":{"deps":["js/mod/music.js","js/mod/music/lib/base.js"],"url":"//y.gtimg.cn/music/mac/js/v4/singer_536d88e.js?max_age=31536000","m":"536d88e"},"js/v4/singer_list.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/singer_list_dba03d0.js?max_age=31536000","m":"dba03d0"},"js/v4/songSquare.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/songSquare_59ad739.js?max_age=31536000","m":"59ad739"},"js/v4/songdetail.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/songdetail_de85da6.js?max_age=31536000","m":"de85da6"},"js/v4/storage.js":{"url":"//y.gtimg.cn/music/mac/js/v4/storage_512bb65.js?max_age=31536000","m":"512bb65"},"js/v4/topdetail.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/topdetail_3d71bde.js?max_age=31536000","m":"3d71bde"},"js/v4/toplist.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/toplist_2e8782b.js?max_age=31536000","m":"2e8782b"},"js/v4/vip.js":{"deps":["js/mod/music.js"],"url":"//y.gtimg.cn/music/mac/js/v4/vip_4db5132.js?max_age=31536000","m":"4db5132"}},"pkg":{}});</script>
+<script type="text/javascript">
+window.addEventListener('load',function () {
+SPD.mark(35);    // onload
+}, false);
+require.async("js/v4/index.js", function(mac){
+g_watchRenderBegin = new Date();
+SPD.mark(33);    // JS加载完毕
+mac.init({"recom_type":"nd"});
+});
+
+</script>
+
+
+</body>
+2018-07-12 09:21:44.041194+0800 Kinds[1487:35229] content1 = <head>
+<meta charset="utf-8">
+<title>推荐页 - QQ音乐</title>
+<script id="mod_spt">
+document.domain = 'qq.com';
+(function(m, o, d, u, l, a, r) {
+if(m[o]) {return;}
+function f(n) {
+return function() { r.push(n, arguments); return a; }
+}
+m[o] = a = {
+args: (r = []),    resourceMap : f(0),    async: f(1)
+};
+u = d.createElement("script");
+u.id = o + "node";
+u.async = true;
+//u.crossOrigin = true;
+u.src = window.location.protocol+"//y.gtimg.cn/c/=/music/mac/js/mod/music/map.js,/music/mac/js/mod/music/mod.js?r=" + parseInt(new Date()/600000) ;
+l = d.getElementsByTagName("head")[0];
+l.appendChild(u);
+})(window, "require", document);
+
+window.SPD={_timing:{},_start:Date.now(),mark:function(a,b){this._timing[a]=(b||Date.now())-this._start}};
+</script><script id="requirenode" async="" src="https://y.gtimg.cn/c/=/music/mac/js/mod/music/map.js,/music/mac/js/mod/music/mod.js?r=2552263"></script>
+<script type="text/javascript">window.g_watchCssBegin=new Date();
+document.write('<link rel="stylesheet" type="text/css" href="'+window.location.protocol+'//y.gtimg.cn/mediastyle/macmusic_v4/frame_20171107.css?max_age=2592000&v=20171115">');
+document.write('<link rel="stylesheet" type="text/css" href="'+window.location.protocol+'//y.gtimg.cn/mediastyle/macmusic_v4/recommend20180510.css?max_age=2592000">');
+</script><link rel="stylesheet" type="text/css" href="https://y.gtimg.cn/mediastyle/macmusic_v4/frame_20171107.css?max_age=2592000&amp;v=20171115"><link rel="stylesheet" type="text/css" href="https://y.gtimg.cn/mediastyle/macmusic_v4/recommend20180510.css?max_age=2592000">
+<script type="text/javascript">window.g_watchPageBegin=new Date();</script>
+<script type="text/javascript">
+SPD.mark(31); // CSS加载完毕
+</script>
+</head>
+<body class="preload">
+<div class="wrap">
+
+<article class="focus">
+<!-- 动画中加类名animating 完成后去掉 -->
+<div class="stage" id="J_animating">
+
+<section class="2018-07-12 09:21:44.043768+0800 Kinds[1487:35292] [BoringSSL] Function nw_protocol_boringssl_input_finished: line 1436 Peer disconnected during the middle of a handshake. Sending errSSLFatalAlert(-9802) alert
+p1" index="0" data-id="J_index1" id="J_index1" style="visibility: visible;">
+<a href="javascript:;" data-rid="4138995" data-type="10002">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/301136.jpg?max_age=2592000" src="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/301136.jpg?max_age=2592000" alt="iKON中文曲PY" style="display: block; visibility: visible; opacity: 0;">
+</a>
+</section>
+
+<section class="p2" index="1" data-id="J_index2" id="J_index2">
+<a href="javascript:;" data-rid="0" data-type="3002" data-href="https://y.qq.com/m/digitalbum/gold/index.html?_video=true&amp;id=4124273&amp;g_f=yqqjiaodian">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300107.jpg?max_age=2592000" src="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300107.jpg?max_age=2592000" alt="YQQ周笔畅《重命名》">
+</a>
+</section>
+
+<section class="p3" index="2" data-id="J_index3" id="J_index3">
+<a href="javascript:;" data-rid="4084422" data-type="10002">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300998.jpg?max_age=2592000" src="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300998.jpg?max_age=2592000" alt="成龙">
+</a>
+</section>
+
+<section class="p4" index="3" data-id="J_index4" id="J_index4">
+<a href="javascript:;" data-rid="4164166" data-type="10002">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/301042.jpg?max_age=2592000" src="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/301042.jpg?max_age=2592000" alt="金志文EP">
+</a>
+</section>
+
+<section class="p5" index="4" data-id="J_index5" id="J_index5">
+<a href="javascript:;" data-rid="2217602" data-type="10002">
+<img data-original="http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/300523.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="唱反调X熊梓淇">
+</a>
+</section>
+
+<a href="javascript:;" class="focus__btn_prev js_prev"><span class="focus__txt">上一个</span></a>
+<a href="javascript:;" class="focus__btn_next js_next"><span class="focus__txt">下一个</span></a>
+
+
+</div>
+<footer>
+
+<a class=" J_dot1" href="javascript:;" id="J_dot1" data-id="1" tabindex="-1">1</a>
+
+<a class=" J_dot2" href="javascript:;" id="J_dot2" data-id="2" tabindex="-1">2</a>
+
+<a class="current J_dot3" href="javascript:;" id="J_dot3" data-id="3" tabindex="-1">3</a>
+
+<a class=" J_dot4" href="javascript:;" id="J_dot4" data-id="4" tabindex="-1">4</a>
+
+<a class=" J_dot5" href="javascript:;" id="J_dot5" data-id="5" tabindex="-1">5</a>
+
+</footer>
+</article>
+
+
+<article class="main">
+
+
+<section class="mod_slide mod_for_u custom7 js_tuijian mod_section">
+<header class="mod_hd">
+<h2 class="mod_tit">为你推荐</h2>
+<div class="mod_slide_btn">
+<a href="javascript:;" class="mod_slide_btn__prev prev over" style="display:;" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>上一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+<a href="javascript:;" class="mod_slide_btn__next next" style="display:;" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>下一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+</div>
+</header>
+<div class="mod_slide__cont">
+<ul class="mod_playlist" id="J_like">
+<li class="mod_playlist__item js_daily30" style="display:none">
+<!-- 播放时添加类名playing -->
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="daily30">
+<div class="mod_playlist__cover mod_recommend_cover">
+<img class="mod_playlist__pic" src="//p.qpic.cn/music_cover/A3K6WU7EtiaOWXPWe0T7icHy5rtPB6uxy0Q6WF4iasmiccO0ld7phIib5Hg/300?n=1" alt="">
+<div class="recommend_cover__info">
+
+<div class="recommend_cover__month_en">JUL</div>
+<div class="recommend_cover__month_cn">七月</div>
+<div class="recommend_cover__data">
+<!-- 改变url数字 -->
+
+<div class="recommend_cover__data_numb" style="background-image:url(//y.gtimg.cn/mediastyle/macmusic_v4/img/recommend_cover/1.png?max_age=2592000)"></div>
+
+<div class="recommend_cover__data_numb" style="background-image:url(//y.gtimg.cn/mediastyle/macmusic_v4/img/recommend_cover/2.png?max_age=2592000)"></div>
+
+</div>
+</div>
+</div>
+</a>
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">基于你最近听的歌曲</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+基于你最近听的歌曲推荐
+<br>
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;">每日推荐</a></h3>
+</li>
+
+<li class="mod_playlist__item js_gxdiantai" style="display:none">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover" data-type="10004" data-rid="99" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://i.gtimg.cn/music/common/upload/t_cm3_photo_publish/1462268549229011500.jpg?max_age=2592000)">
+<span class="hide">个性电台</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">每天给你不同的惊喜</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+基于你最近听的歌曲
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10004" data-rid="99">个性电台</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4204678415" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/ibSiagqKjw1zfTgxY7F8CfE9UstjhpTfKs2KGwPBVI3CsicxWV7J8fr4A/600?n=1?max_age=2592000)">
+<span class="hide">每日新歌：BTOB队长合作抒情新曲</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：每日新歌：BTOB队长合作抒情新曲</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：每日新歌：BTOB队长合作抒情新曲
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4204678415">每日新歌：BTOB队长合作抒情新曲</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4205111691" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/1ZdGl7wveVA1a9fU8FWwvKfJr33pYJuhL9QGTgxER3BniaenbjL8Zog/600?n=1?max_age=2592000)">
+<span class="hide">为了你我可以对抗全世界，即使你已经离开</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：为了你我可以对抗全世界，即使你已经离开</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：为了你我可以对抗全世界，即使你已经离开
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4205111691">为了你我可以对抗全世界，即使你已经离开</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4076533364" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/K1wMWlXCKHpuvadtQGDIMIz6c8eE6dp9f840aeJfLqsVljC5AlAibkA/600?n=1?max_age=2592000)">
+<span class="hide">海滩度假趴：欢快的日系小曲</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：海滩度假趴：欢快的日系小曲</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：海滩度假趴：欢快的日系小曲
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4076533364">海滩度假趴：欢快的日系小曲</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4178313184" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/N989Yfypibia4roDxwxzpl9oicmyiagRicVu2cOYjVMzOtFyn4rezvKzSRQ/600?n=1?max_age=2592000)">
+<span class="hide">Original Mix: 迷幻娇嗓的欧美女声</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：Original Mix: 迷幻娇嗓的欧美女声</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：Original Mix: 迷幻娇嗓的欧美女声
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4178313184">Original Mix: 迷幻娇嗓的欧美女声</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4193663474" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/UCJDptU3vGgQt6PS5Hn6CxbfOR0S0slzJN45AIibr8S2xE6vHLxibbAw/600?n=1?max_age=2592000)">
+<span class="hide">古风：笛音云雾绕，一曲醉轻狂</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：古风：笛音云雾绕，一曲醉轻狂</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：古风：笛音云雾绕，一曲醉轻狂
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4193663474">古风：笛音云雾绕，一曲醉轻狂</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4171011468" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/rTTmm5kYwyYzDb9vVF6KsQpdibUSp6M55WChCMosTxb64iaQerOfqKrw/600?n=1?max_age=2592000)">
+<span class="hide">90后韩国说唱新生代</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：90后韩国说唱新生代</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：90后韩国说唱新生代
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4171011468">90后韩国说唱新生代</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4073800491" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/sMrfR4xnhvohzZMUw6icQ1SXCMxicWr8oVvRicgaKwzQ2Acia4RNlSXMGQ/600?n=1?max_age=2592000)">
+<span class="hide">摇滚乐里的小号角色</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：摇滚乐里的小号角色</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：摇滚乐里的小号角色
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4073800491">摇滚乐里的小号角色</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4191052531" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/PTq9Z793Ipkz20NmN0Ykyy8hFpicms3T70HHbc6ojsE84TjjK8KLJIA/600?n=1?max_age=2592000)">
+<span class="hide">Dream Pop · 少女の臆想氛围</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：Dream Pop · 少女の臆想氛围</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：Dream Pop · 少女の臆想氛围
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4191052531">Dream Pop · 少女の臆想氛围</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4128710557" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/Q6jzKPNCPTc2iczypkicqzaP4TYMIYkjIxSWEuOP46nA9HQNvAUE6GEQ/600?n=1?max_age=2592000)">
+<span class="hide">Deep House 妖娆男嗓</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：Deep House 妖娆男嗓</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：Deep House 妖娆男嗓
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4128710557">Deep House 妖娆男嗓</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4192069136" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/Biax4WTSMic4N0bgPWDwUCs5s5T4wShl3b6sU4uu6ZGKhn1zN2vibYzhA/600?n=1?max_age=2592000)">
+<span class="hide">思路大开！刷数学题听的Indie Rock</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：思路大开！刷数学题听的Indie Rock</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：思路大开！刷数学题听的Indie Rock
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4192069136">思路大开！刷数学题听的Indie Rock</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4167230332" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/Ln2hcJrJkibdW1MpKCmHtuVgrxE2r3rmTwBasTogokD93BpDd08FSjA/600?n=1?max_age=2592000)">
+<span class="hide">全民K歌古风歌手全收录</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：全民K歌古风歌手全收录</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：全民K歌古风歌手全收录
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4167230332">全民K歌古风歌手全收录</a></h3>
+</li>
+
+<li class="mod_playlist__item">
+<a href="javascript:;" class="mod_playlist__link mod_play_cover  J_disspage  " data-type="10014" data-rid="4180893841" tabindex="-1">
+<div class="mod_playlist__cover" style="background-image:url(http://p.qpic.cn/music_cover/ibHEEiau7zoLyJC1TFibu8icfmHULc605ibSvekJDCnhTrkmOxto3b7qhag/600?n=1?max_age=2592000)">
+<span class="hide">耳机分你一半&nbsp;|&nbsp;图书馆恋爱BGM</span>
+</div>
+<i class="mod_play_cover__btn J_icon">播放</i>
+<span class="mod_play_cover__playing"><i></i><i></i><i></i><i></i></span>
+</a>
+
+<div class="mod_for_u_tips">
+<div class="mod_for_u_tips__short">编辑推荐：耳机分你一半&nbsp;|&nbsp;图书馆恋爱BGM</div>
+<div class="mod_for_u_tips__hover">
+<div class="mod_for_u_tips__hover_cont">
+
+编辑推荐：耳机分你一半&nbsp;|&nbsp;图书馆恋爱BGM
+
+<!--button class="mod_btn mod_for_u_tips__btn">不喜欢</button-->
+</div>
+</div>
+</div>
+<h3 class="mod_playlist__name"><a href="javascript:;" data-type="10014" data-rid="4180893841">耳机分你一半&nbsp;|&nbsp;图书馆恋爱BGM</a></h3>
+</li>
+
+</ul>
+</div>
+</section>
+
+
+<section class="mod_section mod_news">
+<header class="mod_hd">
+<h2 class="mod_tit">新歌首发</h2>
+<nav class="mod_tag_tab">
+<a href="javascript:;" data-type="nd">内地</a>
+<a href="javascript:;" data-type="gt">港台</a>
+<a href="javascript:;" data-type="eu">欧美</a>
+<a href="javascript:;" data-type="k">韩国</a>
+<a href="javascript:;" data-type="j">日本</a>
+</nav>
+</header>
+<div class="mod_news_cont" id="box">
+<div class="mod_news_cont__hd">
+<a href="javascript:;" class="mod_news__playall js_all_play">
+<svg aria-labelledby="title" role="img" class="playall_btn">
+<title>播放</title>
+<use xlink:href="#song_play" class="playall_btn__icon"></use>
+<use xlink:href="#song_round"></use>
+</svg>
+播放全部</a>
+<div class="mod_slide_btn">
+<a href="javascript:;" class="mod_slide_btn__prev over" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>上一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+<a href="javascript:;" class="mod_slide_btn__next" tabindex="-1">
+<svg class="mod_slide_btn__arrow" role="img" aria-labelledby="title">
+<title>下一页</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
+</svg>
+</a>
+</div>
+</div>
+<div class="mod_news_cont__bd" style="-webkit-transform:translateX(0%);">
+
+<ul class="mod_news_list">
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;" style="visibility: visible;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000003nlRrP1C4A74.jpg?max_age=2592000" src="//y.gtimg.cn/music/photo_new/T002R90x90M000003nlRrP1C4A74.jpg?max_age=2592000" alt="不念" style="display: block; visibility: visible; opacity: 0;"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="不念">不念</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="张靓颖">张靓颖</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;" style="visibility: visible;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000002n00K51QVd8k.jpg?max_age=2592000" src="//y.gtimg.cn/music/photo_new/T002R90x90M000002n00K51QVd8k.jpg?max_age=2592000" alt="中国魂" style="display: block; visibility: visible; opacity: 0;"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="中国魂">中国魂</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="吴亦凡">吴亦凡</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000003KxD740juHki.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="永不磨灭的音符"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="永不磨灭的音符">永不磨灭的音符</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="金志文">金志文</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000001rZVPz1r30eJ.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="我们是谁"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="我们是谁">我们是谁</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="南征北战NZBZ">南征北战NZBZ</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000001HjGIQ4gT0Zk.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="对嘴"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="对嘴">对嘴</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="周笔畅">周笔畅</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M000003PrXXR1ayIsf.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="中餐厅"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+<a href="javascript:;" class="mod_news_list__song" title="中餐厅">中餐厅</a>
+<a href="javascript:;" class="mod_news_list__more" title="更多操作" aria-haspopup="true">
+<svg aria-labelledby="title" role="img">
+<title>更多操作</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#song_more"></use>
+</svg>
+</a>
+</h6>
+<p class="mod_news_list__desc"><a href="javascript:;" class="song_list__name c_txt2 singer_name" title="赵薇">赵薇</a></p>
+</div>
+</div>
+</li>
+
+
+
+<li class="mod_news_list__item">
+<div class="mod_news_list__media">
+<div class="mod_news_list__aside" href="javascript:;">
+<a href="javascript:;" class="mod_news_list__cover mod_play_cover album_name"><img class="mod_news_list__img" data-original="//y.gtimg.cn/music/photo_new/T002R90x90M0000014d61X4SFq8p.jpg?max_age=2592000" src="//y.gtimg.cn/mediastyle/macmusic_v4/extra/default_cover.png?max_age=31536000" alt="肆无忌惮"><i class="mod_news_list__btn_play"></i></a>
+</div>
+<div class="mod_news_list__body">
+<h6 class="mod_news_list__tit c_txt1">
+
+
+

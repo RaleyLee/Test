@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>proName</key>
+		<string>音乐播放器</string>
+		<key>proIcon</key>
+		<string>icon-QQMusic</string>
+		<key>proUrl</key>
+		<string>MusicViewController</string>
+		<key>iconCorner</key>
+		<string>5</string>
+		<key>iconSimName</key>
+		<string>🎵</string>
+		<key>state</key>
+		<string>未完成</string>
+		<key>canPush</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>proName</key>
+		<string>微信朋友圈</string>
+		<key>proIcon</key>
+		<string>icon-Wechat</string>
+		<key>proUrl</key>
+		<string>WechatViewController</string>
+		<key>iconCorner</key>
+		<string>5</string>
+		<key>iconSimName</key>
+		<string>微信</string>
+		<key>state</key>
+		<string>未完成</string>
+		<key>canPush</key>
+		<string>YES</string>
+	</dict>
+</array>
+</plist>

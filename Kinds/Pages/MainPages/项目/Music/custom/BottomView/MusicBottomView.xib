@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MusicBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="631" height="74"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2B-mJ-qBk">
+                    <rect key="frame" x="0.0" y="0.0" width="486" height="74"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vq3-0o-ezW">
+                    <rect key="frame" x="566" y="0.0" width="50" height="74"/>
+                    <color key="backgroundColor" red="1" green="0.108452691" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="tGp-A1-AoH"/>
+                    </constraints>
+                    <state key="normal" title="列表">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5s-gm-RRk">
+                    <rect key="frame" x="501" y="0.0" width="50" height="74"/>
+                    <color key="backgroundColor" red="1" green="0.108452691" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="pQT-Lw-6Qo"/>
+                    </constraints>
+                    <state key="normal" title="播放">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="F2B-mJ-qBk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BSh-S0-IVW"/>
+                <constraint firstItem="d5s-gm-RRk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GBz-k7-KPK"/>
+                <constraint firstAttribute="bottom" secondItem="Vq3-0o-ezW" secondAttribute="bottom" id="Qkx-f0-nMq"/>
+                <constraint firstAttribute="bottom" secondItem="F2B-mJ-qBk" secondAttribute="bottom" id="QpZ-T7-D3A"/>
+                <constraint firstAttribute="bottom" secondItem="d5s-gm-RRk" secondAttribute="bottom" id="Ybm-7z-k9O"/>
+                <constraint firstAttribute="trailing" secondItem="Vq3-0o-ezW" secondAttribute="trailing" constant="15" id="aFF-SD-v1r"/>
+                <constraint firstItem="Vq3-0o-ezW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bey-4G-oSA"/>
+                <constraint firstItem="d5s-gm-RRk" firstAttribute="leading" secondItem="F2B-mJ-qBk" secondAttribute="trailing" constant="15" id="d1V-mN-y1T"/>
+                <constraint firstItem="Vq3-0o-ezW" firstAttribute="leading" secondItem="d5s-gm-RRk" secondAttribute="trailing" constant="15" id="gt4-sg-au4"/>
+                <constraint firstItem="F2B-mJ-qBk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="roU-Wv-gWJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="15.5" y="116"/>
+        </view>
+    </objects>
+</document>

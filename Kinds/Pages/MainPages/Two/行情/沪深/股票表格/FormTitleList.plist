@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>zxj</key>
+		<string>最新价</string>
+	</dict>
+	<dict>
+		<key>zdf</key>
+		<string>涨跌幅</string>
+	</dict>
+	<dict>
+		<key>zde</key>
+		<string>涨跌额</string>
+	</dict>
+	<dict>
+		<key>hsl</key>
+		<string>换手率</string>
+	</dict>
+	<dict>
+		<key>zs</key>
+		<string>5分钟涨速</string>
+	</dict>
+	<dict>
+		<key>lb</key>
+		<string>量比</string>
+	</dict>
+	<dict>
+		<key>zf</key>
+		<string>振幅</string>
+	</dict>
+	<dict>
+		<key>cjl</key>
+		<string>成交量(手)</string>
+	</dict>
+	<dict>
+		<key>cje</key>
+		<string>成交额</string>
+	</dict>
+	<dict>
+		<key>syl</key>
+		<string>市盈TTM</string>
+	</dict>
+	<dict>
+		<key>ltsz</key>
+		<string>流通市值</string>
+	</dict>
+	<dict>
+		<key>zxz</key>
+		<string>总市值</string>
+	</dict>
+</array>
+</plist>

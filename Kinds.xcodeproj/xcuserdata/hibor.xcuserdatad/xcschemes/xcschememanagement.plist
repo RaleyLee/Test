@@ -7,7 +7,25 @@
 		<key>Kinds.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>13</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1448227E20D9F73600CBDC3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1448229620D9F73900CBDC3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>144822A120D9F73900CBDC3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
