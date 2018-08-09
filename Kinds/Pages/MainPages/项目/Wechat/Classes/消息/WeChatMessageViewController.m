@@ -40,7 +40,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"data = %@",self.dataSourceArray);
+//    NSLog(@"data = %@",self.dataSourceArray);
     self.view.backgroundColor = [UIColor whiteColor];
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
