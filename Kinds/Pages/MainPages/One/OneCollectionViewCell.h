@@ -12,4 +12,6 @@
 
 @property(nonatomic,strong) UILabel *nameLabel;
 
+@property(nonatomic,strong)UIImageView *canPushImageView;
+
 @end

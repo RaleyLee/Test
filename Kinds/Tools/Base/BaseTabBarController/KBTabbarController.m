@@ -59,7 +59,7 @@
 
     [[UITabBar appearance] setBackgroundImage:[self imageWithColor:[UIColor whiteColor]]];
     //  设置tabbar
-//    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
+    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
 
 }
 
@@ -125,7 +125,7 @@
 
     childController.title = title;
     childController.tabBarItem.image = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    childController.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    childController.tabBarItem.selectedImage = [[[UIImage imageNamed:selectedImageName] imageWithColor:self.barTintColor] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     // 设置一下选中tabbar文字颜色
     
     [childController.tabBarItem setTitleTextAttributes:@{ NSForegroundColorAttributeName : self.barTintColor ? self.barTintColor :[UIColor darkGrayColor] }forState:UIControlStateSelected];

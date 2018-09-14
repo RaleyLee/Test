@@ -12,6 +12,9 @@
 
 #import "PopChooseView.h"
 #import "ChangeColorView.h"
+#import "DNPayAlertView.h"
+
+#import <LocalAuthentication/LocalAuthentication.h> //指纹识别
 
 @interface DemoModel()
 
@@ -51,13 +54,16 @@ static NSString *const cellId = @"cellId";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    //  https://s3.bytecdn.cn/aweme/resource/web/static/image/index/new-tvc_889b57b.mp4 抖音官网视频
    
     self.flowLayout = [[UICollectionViewFlowLayout alloc] init];
     
     self.listCollectionView.collectionViewLayout = self.flowLayout;
     
     [self.listCollectionView registerClass:[OneCollectionViewCell class] forCellWithReuseIdentifier:cellId];
-    
+    self.listCollectionView.backgroundColor = RGB(240, 240, 240);
 
 }
 
@@ -76,6 +82,7 @@ static NSString *const cellId = @"cellId";
     cell.layer.masksToBounds = YES;
     DemoModel *model = self.demoArray[indexPath.item];
     cell.nameLabel.text = model.title;
+    cell.canPushImageView.hidden = !model.canPush;
     
     return cell;
 }
@@ -121,8 +128,78 @@ static NSString *const cellId = @"cellId";
             ChangeColorView *changeView = [ChangeColorView popChangeView];
             [changeView show];
         }
-        if (indexPath.item == 3) {
-            
+        if (indexPath.item == 7) {
+            DNPayAlertView *payAlert = [[DNPayAlertView alloc]init];
+            payAlert.titleStr = @"请输入支付密码";
+            payAlert.detail = @"提现";
+            payAlert.amount= 10;
+            [payAlert show];
+            payAlert.completeHandle = ^(NSString *inputPwd) {
+                //something
+                NSLog(@"pwd = %@",inputPwd);
+            };
+        }
+        if (indexPath.item == 13) {
+            LAContext *context = [[LAContext alloc] init];
+            context.localizedFallbackTitle = @"输入密码";
+            if (@available(iOS 10.0, *)) {
+                context.localizedCancelTitle = @"取消";
+            } else {
+                // Fallback on earlier versions
+            }
+            NSError *error = nil;
+            NSString *result = @"需要验证您的Touch ID";
+            if ([context canEvaluatePolicy:LAPolicyDeviceOwnerAuthentication error:&error]) {
+                [context evaluatePolicy:LAPolicyDeviceOwnerAuthentication localizedReason:result reply:^(BOOL success, NSError * _Nullable error) {
+                    if (success) {
+                        NSLog(@"验证成功");
+                    }else{
+                        switch (error.code) {
+                            case LAErrorSystemCancel:
+                                NSLog(@"切换到其他APP,系统取消验证Touch ID");
+                                break;
+                            case LAErrorUserCancel:
+                                NSLog(@"用户取消验证Touch ID");
+                                break;
+                            case LAErrorUserFallback:
+                            {
+                                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                                    //用户选择其他验证，切换到主线程处理
+                                    NSLog(@"用户选择其他验证，切换到主线程处理");
+                                }];
+                            }
+                                break;
+                            default:
+                            {
+                                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                                    //其他情况，切换到主线程处理
+                                    NSLog(@"其他情况，切换到主线程处理");
+                                }];
+                            }
+                                break;
+                        }
+                    }
+                }];
+            }else{
+                //不支持指纹识别，LOG出错误详情
+                switch (error.code) {
+                    case LAErrorTouchIDNotEnrolled:
+                    {
+                        NSLog(@"TouchID is not enrolled");
+                        break;
+                    }
+                    case LAErrorPasscodeNotSet:
+                    {
+                        NSLog(@"A passcode has not been set");
+                        break;
+                    }
+                    default:
+                    {
+                        NSLog(@"TouchID not available");
+                        break;
+                    }
+                }
+            }
         }
     }
 

@@ -92,13 +92,17 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
   install_resource "${PODS_ROOT}/DTKDropdownMenu/DTKDropdownMenuView/DTKDropdownMenuView.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_ROOT}/PureCamera/PureCamera/PureCamera.bundle"
   install_resource "${PODS_ROOT}/ZWPullMenuView/ZWPullMenuView/ZWPullMenuCell.xib"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
   install_resource "${PODS_ROOT}/DTKDropdownMenu/DTKDropdownMenuView/DTKDropdownMenuView.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_ROOT}/PureCamera/PureCamera/PureCamera.bundle"
   install_resource "${PODS_ROOT}/ZWPullMenuView/ZWPullMenuView/ZWPullMenuCell.xib"
 fi
 

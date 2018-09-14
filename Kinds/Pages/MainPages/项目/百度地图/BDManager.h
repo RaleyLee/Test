@@ -10,4 +10,11 @@
 
 @interface BDManager : NSObject
 
++(BDManager *)shareManager;
+
+
++(NSMutableDictionary *)getLayerContent;
+
++(void)writeLayerContentWithDictionary:(NSMutableDictionary *)dictionary;
+
 @end

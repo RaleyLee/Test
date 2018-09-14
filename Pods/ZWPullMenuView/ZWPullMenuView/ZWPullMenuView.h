@@ -78,5 +78,5 @@ typedef void(^BlockSelectedMenu)(NSInteger menuRow);
 + (instancetype)pullMenuAnchorPoint:(CGPoint)anchorPoint titleArray:(NSArray *)titleArray imageArray:(NSArray *)imageArray;
 + (instancetype)pullMenuAnchorPoint:(CGPoint)anchorPoint menuArray:(NSArray<ZWPullMenuModel *> *)menuArray;
 
-- (void)animateRemoveView;
+-(void)animateRemoveView;
 @end

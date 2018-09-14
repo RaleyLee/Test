@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   BDLayerPlist.plist
-   Kinds
-
-   Created by hibor on 2018/8/14.
-   Copyright (c) 2018年 hibor. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>mapKind</key>
+	<string>2</string>
+	<key>road-event</key>
+	<string>0</string>
+	<key>hot-diagram</key>
+	<string>0</string>
+	<key>collection-point</key>
+	<string>0</string>
+	<key>theme-map</key>
+	<string>0</string>
+	<key>road-open</key>
+	<string>0</string>
+	<key>RealScene</key>
+	<string>0</string>
+</dict>
 </plist>

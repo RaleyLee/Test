@@ -8,7 +8,11 @@
 
 #import "AVPlayerViewController.h"
 
-@interface AVPlayerViewController ()
+@interface AVPlayerViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property(nonatomic,strong)UITableView *playTableView;
+
+@property(nonatomic,strong)NSArray *titles,*viewControllers;
 
 @end
 
@@ -17,8 +21,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.navigationItem.title = @"视频播放";
+    
+    self.playTableView = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStylePlain];
+    self.playTableView.dataSource = self;
+    self.playTableView.delegate = self;
+    self.playTableView.tableFooterView = [UIView new];
+    [self.view addSubview:self.playTableView];
+    [self.playTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 }
 
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.titles.count;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *Iden = @"playerCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:Iden];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:Iden];
+    }
+    return cell;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

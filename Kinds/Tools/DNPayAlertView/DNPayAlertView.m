@@ -56,6 +56,11 @@ static CGFloat const kCommonMargin    = 100;
 
 - (void)viewAddSubviews {
     [self.view addSubview:self.paymentAlert];
+    [self.paymentAlert mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.view);
+        make.top.mas_equalTo(150);
+        make.size.mas_equalTo(CGSizeMake([UIScreen mainScreen].bounds.size.width-80, kAlertHeight));
+    }];
     [self.paymentAlert addSubview:self.titleLabel];
     [self.paymentAlert addSubview:self.closeBtn];
     [self.paymentAlert addSubview:self.line];

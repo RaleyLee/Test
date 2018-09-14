@@ -17,6 +17,13 @@
         [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(self.contentView);
         }];
+        
+        [self.contentView addSubview:self.canPushImageView];
+        [self.canPushImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.right.mas_equalTo(0);
+            make.bottom.mas_equalTo(0);
+            make.size.mas_equalTo(CGSizeMake(15, 15));
+        }];
     }
     return self;
 }
@@ -30,5 +37,13 @@
         [_nameLabel adjustsFontSizeToFitWidth];
     }
     return _nameLabel;
+}
+
+-(UIImageView *)canPushImageView{
+    if (!_canPushImageView) {
+        _canPushImageView = [UIImageView new];
+        _canPushImageView.image = [UIImage imageNamed:@"canpush-RB"];
+    }
+    return _canPushImageView;
 }
 @end

@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^ItemClickBlock)(NSInteger index,BOOL state);
+
 @interface BDToolView : UIView
+
+
+-(instancetype)initWithDataSource:(NSArray *)dataArray;
+
+@property(nonatomic,copy)ItemClickBlock clickBlock;
 
 @end

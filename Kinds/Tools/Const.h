@@ -111,4 +111,18 @@ static NSString * const kStatusBarTappedNotification = @"statusBarTappedNotifica
 #define TABLEVIEW_SCROLLTOTOP_DURATION 0.38
 
 
+
+
+
+
+//百度地图AK
+#define BDMAP_AK @"L4pxpFIdslQ4hZ6fDTGIx64K3yqAEuFq"
+
+
+
+
+
+
+
+
 #endif /* Const_h */

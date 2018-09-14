@@ -147,7 +147,12 @@
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     [[NSNotificationCenter defaultCenter] postNotificationName:@"HIDDENMENU" object:nil];
     if (scrollView.contentOffset.y <= -10 && !self.ready) {
+        //短震 3D Touch中的peek震动效果
         AudioServicesPlaySystemSound(1519);
+        //短震 3D Touch中的pop震动效果
+//        AudioServicesPlaySystemSound(1520);
+        //连续三次短震动
+//        AudioServicesPlaySystemSound(1521);
         self.ready = YES;
     }
 }

@@ -1,18 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AliPayNavView">
+            <rect key="frame" x="0.0" y="0.0" width="537" height="64"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUp-dQ-e9m" userLabel="Add-Button">
+                    <rect key="frame" x="478" y="10" width="44" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="mLt-of-Moy"/>
+                        <constraint firstAttribute="height" constant="44" id="ytP-Ss-Lzr"/>
+                    </constraints>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ab5-cR-lJR" userLabel="Contact-Button">
+                    <rect key="frame" x="424" y="10" width="44" height="44"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.090196078430000007" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="8Zy-R3-Gbt"/>
+                        <constraint firstAttribute="width" constant="44" id="hBS-oE-cPf"/>
+                    </constraints>
+                </button>
+                <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="红包" translatesAutoresizingMaskIntoConstraints="NO" id="vOH-wc-Fp1">
+                    <rect key="frame" x="15" y="4" width="379" height="56"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" red="0.93333333330000001" green="0.090196078430000007" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="barTintColor" red="0.2470588235" green="0.50196078430000002" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" red="0.24705882352941178" green="0.50196078431372548" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ab5-cR-lJR" firstAttribute="trailing" secondItem="lUp-dQ-e9m" secondAttribute="leading" constant="-10" id="1Oy-P9-l0L"/>
+                <constraint firstAttribute="bottom" secondItem="vOH-wc-Fp1" secondAttribute="bottom" constant="4" id="B8V-4v-Sqc"/>
+                <constraint firstItem="lUp-dQ-e9m" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="NvV-Cx-49z"/>
+                <constraint firstItem="ab5-cR-lJR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="OQh-ng-qI9"/>
+                <constraint firstItem="ab5-cR-lJR" firstAttribute="leading" secondItem="vOH-wc-Fp1" secondAttribute="trailing" constant="30" id="RBV-h8-JeR"/>
+                <constraint firstItem="vOH-wc-Fp1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="YKt-SZ-zHS"/>
+                <constraint firstItem="vOH-wc-Fp1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="ii3-3g-fXD"/>
+                <constraint firstAttribute="trailing" secondItem="lUp-dQ-e9m" secondAttribute="trailing" constant="15" id="usA-Bx-XjO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="105.5" y="77"/>
         </view>
     </objects>
 </document>

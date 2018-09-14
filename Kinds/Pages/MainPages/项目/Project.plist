@@ -34,5 +34,53 @@
 		<key>canPush</key>
 		<string>YES</string>
 	</dict>
+	<dict>
+		<key>proName</key>
+		<string>百度地图</string>
+		<key>proIcon</key>
+		<string>icon-BaiduMap</string>
+		<key>proUrl</key>
+		<string>BaiduMapViewController</string>
+		<key>iconCorner</key>
+		<string>5</string>
+		<key>iconSimName</key>
+		<string>地图</string>
+		<key>state</key>
+		<string>未开始</string>
+		<key>canPush</key>
+		<string>YES</string>
+	</dict>
+	<dict>
+		<key>proName</key>
+		<string>高德地图</string>
+		<key>proIcon</key>
+		<string>icon-GaodeMap</string>
+		<key>proUrl</key>
+		<string>BaiduMapViewController</string>
+		<key>iconCorner</key>
+		<string>5</string>
+		<key>iconSimName</key>
+		<string>地图</string>
+		<key>state</key>
+		<string>未开始</string>
+		<key>canPush</key>
+		<string>YES</string>
+	</dict>
+	<dict>
+		<key>proName</key>
+		<string>DownLoad</string>
+		<key>proIcon</key>
+		<string></string>
+		<key>proUrl</key>
+		<string>DownLoadViewController</string>
+		<key>iconCorner</key>
+		<string>5</string>
+		<key>iconSimName</key>
+		<string>下载</string>
+		<key>state</key>
+		<string>未开始</string>
+		<key>canPush</key>
+		<string>YES</string>
+	</dict>
 </array>
 </plist>

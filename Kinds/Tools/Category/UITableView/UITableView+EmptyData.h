@@ -27,6 +27,7 @@ typedef void (^ReloadButtonBlock)(void);
 @property(nonatomic,strong) UIView *signView;
 @property(nonatomic,strong) UIImageView *messageImage;
 @property(nonatomic,strong) UILabel *messageLabel;
+@property(nonatomic,strong) UIImageView *singerImageView;
 
 - (void)tableViewDisplayWithMessage:(NSString *) message ifNecessaryForRowCount:(NSUInteger) rowCount;
 
@@ -56,5 +57,11 @@ typedef void (^ReloadButtonBlock)(void);
 -(void)tableViewDisplayWithImage:(UIImage *)image withMessage:(NSString *)message withType:(DisplayType)type ifNecessaryForRowCount:(NSUInteger)rowCount;
 
 
+/**
+ tableview 歌手占位
+
+ @param image 歌手图片
+ */
+-(void)tableViewDisplaySingerImage:(UIImage *)image;
 
 @end

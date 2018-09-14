@@ -10,4 +10,11 @@
 
 @interface StretchView : UIView
 
++(StretchView *)popStretchView;
+
+
+-(void)show;
+
+-(void)dismiss;
+
 @end

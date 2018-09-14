@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+Helper.h"
+#import <SDWebImage/SDImageCache.h>
 
 @implementation UIImage (Helper)
 
@@ -178,6 +179,27 @@
 }
 
 + (UIImage*) thumbnailImageForVideo:(NSURL *)videoURL atTime:(NSTimeInterval)time {
+    if (!videoURL) {
+        return nil;
+    }
+    //先从缓存中找是否有图片
+    static UIImage *backImage = nil;
+    SDImageCache *cache = [SDImageCache sharedImageCache];
+    UIImage *memoryImage = [cache imageFromMemoryCacheForKey:videoURL.absoluteString];
+    if (memoryImage) {
+        backImage = memoryImage;
+        return backImage;
+    }else{
+        UIImage *diskImage = [cache imageFromDiskCacheForKey:videoURL.absoluteString];
+        if (diskImage) {
+            backImage = diskImage;
+            return backImage;
+        }
+    }
+    if (!time) {
+        time = 1;
+    }
+    
     AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:videoURL options:nil];
     NSParameterAssert(asset);
     AVAssetImageGenerator *assetImageGenerator =[[AVAssetImageGenerator alloc] initWithAsset:asset];
@@ -193,10 +215,16 @@
         NSLog(@"thumbnailImageGenerationError %@",thumbnailImageGenerationError);
     
     UIImage*thumbnailImage = thumbnailImageRef ? [[UIImage alloc]initWithCGImage: thumbnailImageRef] : nil;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        SDImageCache *cache = [SDImageCache sharedImageCache];
+        [cache storeImage:thumbnailImage forKey:videoURL.absoluteString toDisk:YES completion:^{
+ 
+        }];
+        backImage = thumbnailImage;
+    });
+    return backImage;
     
-    return thumbnailImage;
 }
-
 
 +(NSMutableArray *)splitPictureWithRow:(NSInteger)row withColumn:(NSInteger)column withImage:(UIImage *)originImage{
     if (row < 1 || column < 1 || !originImage) {

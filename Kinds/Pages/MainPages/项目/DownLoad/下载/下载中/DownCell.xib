@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DownCell">
+            <rect key="frame" x="0.0" y="0.0" width="552" height="95"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ho2-cn-7bF" userLabel="CoverImage View">
+                    <rect key="frame" x="15" y="17.5" width="100" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="FNh-Cz-7F3"/>
+                        <constraint firstAttribute="height" constant="60" id="HGd-RJ-3Be"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3d9-a5-9VX" userLabel="coverView">
+                    <rect key="frame" x="15" y="17.5" width="100" height="60"/>
+                    <color key="backgroundColor" white="0.90163845486111116" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视频标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q80-lR-srT" userLabel="titleLabel">
+                    <rect key="frame" x="130" y="22.5" width="322" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0M/0M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUi-4k-z2B" userLabel="sizeLabel">
+                    <rect key="frame" x="130" y="60.5" width="34" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gI7-M7-X09">
+                    <rect key="frame" x="130" y="46.5" width="407" height="2"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="JwA-bJ-lQ8"/>
+                    </constraints>
+                    <color key="progressTintColor" red="0.76078431372549016" green="0.63137254901960782" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="trackTintColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                </progressView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开始下载" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjD-LP-t27" userLabel="stateLabel">
+                    <rect key="frame" x="496" y="60.5" width="41" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3d9-a5-9VX" firstAttribute="trailing" secondItem="ho2-cn-7bF" secondAttribute="trailing" id="1NH-aw-EEJ"/>
+                <constraint firstAttribute="trailing" secondItem="gI7-M7-X09" secondAttribute="trailing" constant="15" id="1r9-T9-cDA"/>
+                <constraint firstItem="q80-lR-srT" firstAttribute="leading" secondItem="ho2-cn-7bF" secondAttribute="trailing" constant="15" id="B1n-4S-iWl"/>
+                <constraint firstItem="3d9-a5-9VX" firstAttribute="top" secondItem="ho2-cn-7bF" secondAttribute="top" id="GJM-bF-XQe"/>
+                <constraint firstItem="ho2-cn-7bF" firstAttribute="bottom" secondItem="3d9-a5-9VX" secondAttribute="bottom" id="Kiy-EC-bjH"/>
+                <constraint firstItem="q80-lR-srT" firstAttribute="top" secondItem="ho2-cn-7bF" secondAttribute="top" constant="5" id="M9e-ZR-JDK"/>
+                <constraint firstItem="hUi-4k-z2B" firstAttribute="bottom" secondItem="ho2-cn-7bF" secondAttribute="bottom" constant="-5" id="NhG-s2-EcU"/>
+                <constraint firstItem="3d9-a5-9VX" firstAttribute="leading" secondItem="ho2-cn-7bF" secondAttribute="leading" id="O2J-rX-AIF"/>
+                <constraint firstItem="gI7-M7-X09" firstAttribute="leading" secondItem="ho2-cn-7bF" secondAttribute="trailing" constant="15" id="UGg-gk-g6T"/>
+                <constraint firstItem="hUi-4k-z2B" firstAttribute="leading" secondItem="ho2-cn-7bF" secondAttribute="trailing" constant="15" id="Ur0-Tw-coU"/>
+                <constraint firstAttribute="trailing" secondItem="GjD-LP-t27" secondAttribute="trailing" constant="15" id="XdQ-RG-Cqj"/>
+                <constraint firstItem="ho2-cn-7bF" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="YQ8-lF-UU9"/>
+                <constraint firstAttribute="trailing" secondItem="q80-lR-srT" secondAttribute="trailing" constant="100" id="ceY-3C-sle"/>
+                <constraint firstItem="gI7-M7-X09" firstAttribute="centerY" secondItem="ho2-cn-7bF" secondAttribute="centerY" id="en3-xe-szs"/>
+                <constraint firstItem="ho2-cn-7bF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="smw-Al-xGy"/>
+                <constraint firstItem="GjD-LP-t27" firstAttribute="bottom" secondItem="ho2-cn-7bF" secondAttribute="bottom" constant="-5" id="u8e-K6-5FT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="coverImageView" destination="ho2-cn-7bF" id="iXd-ZU-b9W"/>
+                <outlet property="coverView" destination="3d9-a5-9VX" id="VLC-70-zJe"/>
+                <outlet property="downProgress" destination="gI7-M7-X09" id="VIp-K9-11B"/>
+                <outlet property="sizeLabel" destination="hUi-4k-z2B" id="B5K-wj-1WK"/>
+                <outlet property="stateLabel" destination="GjD-LP-t27" id="pTC-wq-zfC"/>
+                <outlet property="titleLabel" destination="q80-lR-srT" id="9bw-MF-UqW"/>
+            </connections>
+            <point key="canvasLocation" x="46" y="279.5"/>
+        </view>
+    </objects>
+</document>

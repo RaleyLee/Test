@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30003B007E802A23A4D4E8A182488CBF"
+               BlueprintIdentifier = "9D1623F63BC3CF5420846028A3DF2377"
                BlueprintName = "UUButton"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libUUButton.a">

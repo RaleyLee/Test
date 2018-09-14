@@ -60,7 +60,7 @@
     _iconImageView.layer.mask = shapeLayer;
     
     if (self.pModel.proIcon.length == 0) {
-        _iconImageView.image = [UIImage createShareImage:[UIImage imageWithColor:[UIColor redColor] size:CGSizeMake(40, 40)] Context:self.pModel.iconSimName];
+        _iconImageView.image = [UIImage createShareImage:[UIImage imageWithColor:RGB_random size:CGSizeMake(40, 40)] Context:self.pModel.iconSimName];
     }else{
         _iconImageView.image = [UIImage imageNamed:self.pModel.proIcon];
     }

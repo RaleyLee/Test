@@ -21,6 +21,11 @@
 #import "WeMeViewController.h"
 
 
+#import "DownLoadViewController.h"
+#import "DownListViewController.h"
+#import "DownViewController.h"
+
+
 @interface FourViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *proTableView;
@@ -106,7 +111,21 @@
         KBTabbarController *weTabbar = [[KBTabbarController alloc] initWithControllers:@[chatVC,contactVC,findVC,meVC] titles:@[@"微信",@"通讯录",@"发现",@"我"] normalImages:@[@"tabbar_mainframe",@"tabbar_contacts",@"tabbar_discover",@"tabbar_me"] selectedImages:@[@"tabbar_mainframeHL",@"tabbar_contactsHL",@"tabbar_discoverHL",@"tabbar_meHL"] withNavigation:@[nav1,nav2,nav3,nav4] withTintColor:[UIColor greenColor] withCenterButtonBlock:nil];
         [self presentViewController:weTabbar animated:YES completion:nil];
         
-    }else{
+    }else if (indexPath.row == 4) {
+        DownListViewController *listVC = [[DownListViewController alloc] init];
+        UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:listVC];
+        [nav1.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigaitonbar"] forBarMetrics:UIBarMetricsDefault];
+        [nav1.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:FONT_9_MEDIUM(18)}];
+        
+        DownViewController *downVC = [[DownViewController alloc] init];
+        UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:downVC];
+        [nav2.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigaitonbar"] forBarMetrics:UIBarMetricsDefault];
+        [nav2.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:FONT_9_MEDIUM(18)}];
+        
+        KBTabbarController *weTabbar = [[KBTabbarController alloc] initWithControllers:@[listVC,downVC] titles:@[@"视频列表",@"下载"] normalImages:@[@"tabbar_mainframe",@"tabbar_contacts"] selectedImages:@[@"tabbar_mainframeHL",@"tabbar_contactsHL"] withNavigation:@[nav1,nav2] withTintColor:[UIColor greenColor] withCenterButtonBlock:nil];
+        [self presentViewController:weTabbar animated:YES completion:nil];
+    }
+    else{
         ProjectModel *model = self.proArray[indexPath.row];
         Class pushClass = NSClassFromString(model.proUrl);
         if (!pushClass) {

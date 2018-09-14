@@ -21,9 +21,11 @@ static const void *UtilityKey = &UtilityKey;
 static const void *UtilityKey_messageLabel = &UtilityKey_messageLabel;
 static const void *UtilityKey_messageImage = &UtilityKey_messageImage;
 static const void *UtilityKey_signView = &UtilityKey_signView;
+static const void *UtilityKey_singerImageView = &UtilityKey_singerImageView;
+
 @implementation UITableView (EmptyData)
 
-@dynamic myBlock,messageImage,messageLabel,signView;
+@dynamic myBlock,messageImage,messageLabel,signView,singerImageView;
 
 -(ReloadButtonBlock)myBlock{
     return objc_getAssociatedObject(self, UtilityKey);
@@ -48,6 +50,12 @@ static const void *UtilityKey_signView = &UtilityKey_signView;
 }
 -(void)setSignView:(UIView *)signView{
     objc_setAssociatedObject(self, UtilityKey_signView, signView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+-(UIImageView *)singerImageView{
+    return objc_getAssociatedObject(self, UtilityKey_singerImageView);
+}
+-(void)setSingerImageView:(UIImageView *)singerImageView{
+    objc_setAssociatedObject(self, UtilityKey_singerImageView, singerImageView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 -(void)tableViewDisplayWithMessage:(NSString *)message ifNecessaryForRowCount:(NSUInteger)rowCount{
@@ -134,6 +142,26 @@ static const void *UtilityKey_signView = &UtilityKey_signView;
         self.backgroundView = nil;
         self.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     }
+}
+
+
+-(void)tableViewDisplaySingerImage:(UIImage *)image{
+    self.backgroundColor = [UIColor colorWithPatternImage:image];
+//    self.signView = [UIView new];
+//    self.backgroundView = self.signView;
+//
+//    self.singerImageView = [UIImageView new];
+//    self.singerImageView.image = image;
+//    self.singerImageView.backgroundColor = [UIColor redColor];
+//    self.singerImageView.layer.cornerRadius = 75;
+//    self.singerImageView.layer.masksToBounds = YES;
+//    [self.signView addSubview:self.singerImageView];
+//    [self.singerImageView mas_updateConstraints:^(MASConstraintMaker *make) {
+//        make.centerX.equalTo(self);
+//        make.top.equalTo(self.mas_centerY).offset(-50);
+//        make.size.mas_equalTo(CGSizeMake(150, 150));
+//    }];
+    
 }
 
 -(void)reloadDataWithButtonClick:(UIButton *)sender{

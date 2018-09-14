@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8A2CFE4A68EDCA48F7BB8372D5B645C"
+               BlueprintIdentifier = "F1BC02A901088F536EB4E279B696D871"
                BlueprintName = "ZWPullMenuView"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libZWPullMenuView.a">

@@ -10,4 +10,7 @@
 
 @interface StretchButton : UIButton
 
+
+-(void)setTitle:(NSString *)title forState:(UIControlState)state;
+
 @end

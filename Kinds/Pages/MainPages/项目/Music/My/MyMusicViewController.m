@@ -14,7 +14,10 @@
 
 #import "MusicBottomView.h"
 
+#import "DownLoadedSongListViewController.h"
+
 #import "AppDelegate.h"
+#import "AllSongsViewController.h"
 
 @interface MyMusicViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -110,6 +113,15 @@
             itemView.itemTag = i;
             itemView.clickItemBlock = ^(NSInteger tag) {
                 NSLog(@"%ld",tag);
+                if (tag == 1) {
+                    NSLog(@"下载音乐");
+                    [self downLoadedSongList];
+                }
+                if (tag == 0) {
+                    NSLog(@"全部音乐");
+                    AllSongsViewController *allVC = [[AllSongsViewController alloc] init];
+                    [self.navigationController pushViewController:allVC animated:YES];
+                }
             };
             [cell.contentView addSubview:itemView];
             
@@ -214,6 +226,14 @@
     
     return nil;
 }
+
+
+#pragma mark - 打开下载音乐列表
+-(void)downLoadedSongList{
+    DownLoadedSongListViewController *listVC = [[DownLoadedSongListViewController alloc] init];
+    [self.navigationController pushViewController:listVC animated:YES];
+}
+
 
 #pragma mark - 添加歌单
 -(void)addSongListAction{
